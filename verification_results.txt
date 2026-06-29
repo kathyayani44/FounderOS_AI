@@ -1,0 +1,34 @@
+============================================================
+MULTI-TENANT ISOLATION VERIFICATION RESULTS
+============================================================
+[PASS] InvestorService.get_all has owner_id param: 
+[PASS] InvestorService.get_by_id has owner_id param: 
+[PASS] InvestorService.get_by_name has owner_id param: 
+[PASS] InvestorService.create has owner_id param: 
+[PASS] MeetingService.get_all has owner_id param: 
+[PASS] MeetingService.get_by_id has owner_id param: 
+[PASS] MeetingService.create has owner_id param: 
+[PASS] MemoryService.get_all has owner_id param: 
+[PASS] MemoryService.get_by_id has owner_id param: 
+[PASS] MemoryService.create has owner_id param: 
+[PASS] MemoryService.update has owner_id param: 
+[PASS] MemoryService.delete has owner_id param: 
+[PASS] MemoryService.search_semantic has owner_id param: 
+[PASS] RecommendationService.get_by_investor has owner_id param: 
+[PASS] RecommendationService.get_pending has owner_id param: 
+[PASS] NotificationService.get_all has owner_id param: 
+[PASS] NotificationService.get_by_id has owner_id param: 
+[PASS] ReminderService.get_by_investor has owner_id param: 
+[PASS] ReminderService.create has owner_id param: 
+[PASS] EmailService.get_by_investor has owner_id param: 
+[PASS] EmailService.get_draft_count has owner_id param: 
+[PASS] EmailService.create has owner_id param: 
+[PASS] ActivityLogService.get_by_investor has owner_id param: 
+[PASS] ActivityLogService.create has owner_id param: 
+[PASS] QdrantTool.search_vectors has filter_dict param: 
+[PASS] RetrievalAgent.run has owner_id: 
+[PASS] MemoryAgent.run has owner_id: 
+[PASS] ScoringAgent.run has owner_id: 
+
+Total: 28 passed, 0 failed out of 28
+============================================================
